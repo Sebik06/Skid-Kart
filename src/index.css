@@ -25,25 +25,8 @@ video{
   height: 100%;
   object-fit: cover;
 }
-div.content_video{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.6);
-} 
 
-div.bg{
-  background-image: url('https://www.sodikart.com/content/images/sodi_kart_header.jpg');
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  
-}
+
 /* nastavenie navbaru */
 .active{
   color: silver;
@@ -54,11 +37,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black; /* Použitie premennej pre farbu pozadia */
+  background-color: #000000; /* Použitie premennej pre farbu pozadia */
   color: white;
   position: sticky;
   top: 0;
-  transition: background-color 1.5s ease; /* Plynulý prechod farby */
+  transition: background-color 0.5s ease; /* Plynulý prechod farby */
+  z-index: 2;
 }
 
 
@@ -141,5 +125,216 @@ nav .menu span {
 
   nav ul li a {
       margin: 0.2rem 0.5rem;
+  }
+  .title1{
+  font-size: 2rem;
+  }
+  div.flex1{
+    margin-top: 4rem;
+    text-align:'center';
+  }
+  .title1{
+    margin-top: 120vh;
+  }
+  div.bg{
+    background-image: url('https://www.sodikart.com/content/images/sodi_kart_header.jpg');
+    width: 100%;
+    height: 89rem;
+    background-size: cover;
+  }
+  .container1{
+    margin-top: 3rem;
+  }
+  .bg div.content{
+    position: absolute;
+    width: 100%;
+    color: white;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+  img.obrazok1{
+    width: 400px;
+    height: 180px;
+  }
+  img.obrazok2{
+    width: 400px;
+    height: 150px;
+  }
+  .footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-top: rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .title1{
+    font-size: 3rem;
+  }
+  div.flex1{
+    gap:2rem; 
+    margin-top: 2rem;
+    text-align:'center';
+  }
+  .container1{
+    margin-top: 3rem;
+  }
+  div.bg{
+    background-image: url('https://www.sodikart.com/content/images/sodi_kart_header.jpg');
+    width: 100%;
+    height: 89rem;
+    background-size: cover;
+    position: absolute;
+  }
+  .title1{
+    margin-top: 20vh;
+  }
+  .bg div.content{
+    position: absolute;
+    width: 100%;
+    color: white;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+  img.obrazok1{
+    width: 400px;
+    height: 180px;
+  }
+  img.obrazok2{
+    width: 400px;
+    height: 150px;
+  }
+  .footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-top: 89rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  div.flex1{
+    display: flex;
+    gap:2rem; 
+    margin-top: 2rem;
+    text-align:'center';
+  }
+  div.bg{
+    background-image: url('https://www.sodikart.com/content/images/sodi_kart_header.jpg');
+    width: 100%;
+    height: 45rem;
+    background-size: cover;
+  }
+  .bg div.content{
+    position: absolute;
+    width: 100%;
+    color: white;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+  img.obrazok1{
+    width: 400px;
+    height: 180px;
+  }
+  img.obrazok2{
+    width: 400px;
+    height: 150px;
+  }
+  .footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-top: 45rem;
+  }
+}
+@media (max-width: 600px) {
+  div.flex1{
+    margin-top: 2rem;
+    text-align: center; /* Opravená syntax */
+  }
+  div.bg{
+    background-image: url('https://www.sodikart.com/content/images/sodi_kart_header.jpg');
+    width: 100%;
+    height: 90rem;
+    background-size: cover;
+  }
+  .bg div.content{
+    position: absolute;
+    color: white;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+  img.obrazok1{
+    width: 300px;
+    height: 150px;
+  }
+  img.obrazok2{
+    width: 300px;
+    height: 140px;
+  }
+  .title1{
+    text-align: center;
+  }
+  .footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 100%;
+    position: relative; /* Zmenené na relative */
+    margin-top: auto; /* Zmenené na auto */
+  }
+}
+
+
+
+
+p.text1{
+  width: 400px;
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  font-family: cursive;
+}
+
+
+
+
+
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
