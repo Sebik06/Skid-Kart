@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/skid-kart/static/css/main.af7e1cc3.css",
+    "main.js": "/skid-kart/static/js/main.e10102b7.js",
+    "static/media/jazdec4.jpg": "/skid-kart/static/media/jazdec4.ab7cb16c623a5022149e.jpg",
+    "static/media/jazdec2.jpg": "/skid-kart/static/media/jazdec2.578e56b0bb33afd1d107.jpg",
+    "static/media/jazdec5.jpg": "/skid-kart/static/media/jazdec5.3cf689c5f99eff0f9034.jpg",
+    "static/media/tím.jpg": "/skid-kart/static/media/tím.915e4d7636ecae950628.jpg",
+    "static/media/jazdec3.jpg": "/skid-kart/static/media/jazdec3.c75323e2596f11ff7efe.jpg",
+    "static/media/simon.jpg": "/skid-kart/static/media/simon.1601aa545d5db4b6601c.jpg",
+    "static/media/jazda.jpg": "/skid-kart/static/media/jazda.eb8131ddb1d69832d039.jpg",
+    "static/media/tim2.jpg": "/skid-kart/static/media/tim2.003a2109a89d48a6d458.jpg",
+    "static/media/jazdec1.jpg": "/skid-kart/static/media/jazdec1.22a1d1d3b6d24e2085b3.jpg",
+    "index.html": "/skid-kart/index.html",
+    "main.af7e1cc3.css.map": "/skid-kart/static/css/main.af7e1cc3.css.map",
+    "main.e10102b7.js.map": "/skid-kart/static/js/main.e10102b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af7e1cc3.css",
+    "static/js/main.e10102b7.js"
+  ]
+}
